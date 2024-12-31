@@ -33,16 +33,16 @@ int flagD=1;
 int flagN =1;
 
 // Replace with your network credentials
-const char* ssid = "PorteBoso";
-const char* password ="87654321";
+const char* ssid = "Your SSID";
+const char* password ="Your Password";
 
 // Initialize Telegram BOT
-#define BOTtoken "6842350497:AAFg_rM-IGWWydTS4FbMCdU21wzZ7DEi0mU"  // your Bot Token (Get from Botfather)
+#define BOTtoken "Your Bot Token"  // your Bot Token (Get from Botfather)
 
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
-#define CHAT_ID "6286609276"
+#define CHAT_ID "Your Chat_ID"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
